@@ -3,7 +3,7 @@ Kafka producer and consumer
 
 # Useful commands for zookeeper and kafka
 list topics
-	kafka-topics.bat --zookeeper 127.0.0.1:2181 --list
+	> kafka-topics.bat --zookeeper 127.0.0.1:2181 --list
 create topic
 	kafka-topics.bat --zookeeper 127.0.0.1:2181 --create --topic first-topic --partitions 3 --replication-factor 1  
 describe topic
